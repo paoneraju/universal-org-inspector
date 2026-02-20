@@ -13,7 +13,7 @@ import {
 import * as tokenManager from './tokenManager';
 import type { AuthTokens } from '../types';
 
-const REDIRECT_URI = 'http://localhost:5173/auth/callback';
+const REDIRECT_URI = 'https://universal-org-inspector.vercel.app/auth/callback';
 const PKCE_STATE_KEY = 'sf_org_inspector_oauth_state';
 const PKCE_VERIFIER_KEY = 'sf_org_inspector_oauth_verifier';
 const LOGIN_URL_KEY = 'sf_org_inspector_login_url';
